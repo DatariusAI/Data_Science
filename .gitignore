@@ -2,3 +2,27 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .env
+
+!.env.example
+
+# Security baseline
+*.pem
+*.key
+id_rsa*
+credentials.json
+secrets.yaml
+*.sqlite
+*.db
+
+# Python (appended)
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE/OS (appended)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
